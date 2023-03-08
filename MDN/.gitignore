@@ -1,0 +1,20 @@
+# compiled files
+**/__pycache__
+__pycache__
+*.py[cod]
+
+# Cached data
+Cache
+
+# Development files
+Development
+Weights_*
+map_files
+toy*
+**/*_skip_*
+
+# pdf files
+*.pdf
+
+# Uncompressed model files
+Weights/*/*/
