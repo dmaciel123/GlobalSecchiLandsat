@@ -32,7 +32,7 @@ Three Python scripts are provided to the user to run the MDN algorithm to Landsa
 
 ## Running the MDN algorithm for Landsat satellite data.
 
-An example is provided to run the MDN algorithm for Landsat-9/OLI data from Chesapeake Bay (Maryland, United Stated). Input data for this script is the .NETCDF file obtained from the ACOLITE atmospheric correction method, and the .TIF Rrs file obtained as output from ACOLITE. TIF file is used to convert the .NETCDF to a more GIS familar .TIF format. 
+An example is provided to run the MDN algorithm for Landsat-9/OLI data from Chesapeake Bay (Maryland, United States). Input data for this script is the .NETCDF file obtained from the ACOLITE atmospheric correction method, and the .TIF Rrs file obtained as output from ACOLITE. TIF file is used to convert the .NETCDF to a more GIS familar .TIF format. 
 
 
 
