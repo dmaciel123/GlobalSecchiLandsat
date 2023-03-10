@@ -15,11 +15,7 @@ def image_MDN_application(image_NC, image_ref, SAVE_FOLDER, sensor, useRatio):
     IMAGE_PATH_NC = image_NC
     IMAGE_PATH_TIF_REF = image_ref
 
-    if useRatio == False:
-        SAVE_FOLDER = SAVE_FOLDER+'secchi_noBandRatio'
-
-    if useRatio == True:
-        SAVE_FOLDER = SAVE_FOLDER+'secchi'
+    SAVE_FOLDER = SAVE_FOLDER+'/secchi.tif'
 
 
     bands, Rrs = get_tile_data(IMAGE_PATH_NC, sensor, allow_neg=False)
