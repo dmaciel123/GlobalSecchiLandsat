@@ -13,7 +13,7 @@ import pandas as pd
 
 #Generate Secchi estimates using MDN for Landsat-7/ETM+
 
-Data = pd.read_csv(r"C:/Users/damac/Downloads/Final_Model/MDN/Examples/filtered_ETM_v2.csv")
+Data = pd.read_csv(r"MDN/Examples/filtered_ETM_v2.csv")
 
 print(Data)
 
@@ -49,4 +49,4 @@ final_df = apply_secchi.reset_index()
 final_df['predicted'] = results['Secchi']
 
 print(final_df)
-final_df.to_csv(r"C:/Users/damac/Downloads/Final_Model/MDN/Examples/Zsd_predicted_ETM.csv")
+final_df.to_csv(r"MDN/Examples/Zsd_predicted_ETM.csv")
