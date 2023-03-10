@@ -19,8 +19,6 @@ print(Data)
 
 apply_secchi = Data
 
-GC = False
-
 # Remove possible negative values
 
 apply_secchi = apply_secchi[(apply_secchi['blue']> 0)]
