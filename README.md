@@ -1,10 +1,15 @@
 # Global Secchi Landsat
  
-This code applies the Mixture Density Network (MDN) algorithm to Landsat atmospherically corrected or in situ measured Remote Sensing Reflectance to predict Secchi Disk Depth (Zsd). 
+
+This respository contain all the necessary code to reproduce the findings obtained in the paper: "Global Long-term Water Transparency Products from the Landsat Archive".
+
+The code contain Python and R scripts to apply Mixture Density Networks, Random Forest, Support Vector Regression, and XGBoost to simulated and satellite-retrieved Remote Sensing Reflectance (Rrs) data based on Landsat-family sensors. 
+
+Python scripts applies the Mixture Density Network (MDN) algorithm to Landsat atmospherically corrected or in situ measured Remote Sensing Reflectance to predict Secchi Disk Depth (Zsd). 
 
 To run the code, clone the GitHub repository and install the required packages (requirements.txt) in a new Python (3.6 or 3.9) environment. 
 
-Two examples are provided:
+# Three examples are provided:
 
 1) Running the MDN for TM, ETM+, and OLI simulated Rrs based on a subset of GLORIA (Lehmann et al. 2023) dataset
 
@@ -19,6 +24,17 @@ First, clone the repository using the following command
 ```sh
 git clone https://github.com/dmaciel123/GlobalSecchiLandsat
 ```
+
+
+Then, create a new environment called MDN
+
+```sh
+conda create -n MDN python=3.9
+
+conda activate MDN
+
+```
+
 
 After that, cd to your MDN folder and install the requirements based on the requirements.txt file. 
 
