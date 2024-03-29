@@ -39,7 +39,8 @@ conda activate MDN
 After that, cd to your MDN folder and install the requirements based on the requirements.txt file. 
 
 ``` sh
-pip install -r .\requirements.txt
+pip install -r ./MDN/requirements.txt
+
 ```
 
 ## Running the MDN algorithm for in situ data
